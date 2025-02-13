@@ -17,7 +17,7 @@ ul, ol{
     background: #fff;
     display: flex;
     flex-direction: row-reverse;
-    width: 1200px;
+    /* width: 1200px; */
     margin: 0 auto;
 }
 
@@ -131,7 +131,7 @@ ul, ol{
     margin-bottom: 12px;
 }
 
-.work-experience-company{
+.work-experience-company{ 
     font-weight: 700;
     font-size: 16px;
 
@@ -302,3 +302,60 @@ ul, ol{
 
 }
 
+@media screen and (max-width: 960px) {
+  body {
+    padding: 20px;
+  }  
+
+  .main-content{
+    padding: 40px;
+  }
+} 
+
+@media screen and (max-width: 800px) {
+    .sidebar {
+        width: 250px;
+    }
+    .my-foto {
+        width: 250px;
+    }
+
+    .sidebar-content {
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 0;
+    }
+
+    .sidebar {
+        width: 200px;
+    }
+    .my-foto {
+        width: 200px;
+    }
+
+    .main-content{
+        padding: 20px;
+}
+
+.my-name{
+    font-size: 28px;
+}
+}
+
+@media screen and (max-width: 510px) {
+    .wraper{
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+    .my-foto {
+        width: 100%;
+    }
+}
